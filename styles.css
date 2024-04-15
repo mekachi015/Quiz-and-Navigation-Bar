@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Montserrat';
 }
 
 .navigation-bar{grid-area: header;}
@@ -35,7 +36,7 @@ body{
     text-decoration: none;
 }
 .side-bar{
-    background-color: purple;
+    background-color: #86469C;
     height: 100vh;
     width: 100%;
 }
@@ -84,13 +85,6 @@ body{
     align-items: center;
 }
 
-
-
-
-
-
-
-
 #quizWrap {
     max-width:  600px;
     margin: 0 auto;
@@ -125,15 +119,14 @@ body{
     text-align: center;
 }
 
-#quizAns label.correct{
+#quizAns label.correct {
     background: #d8ffc4;
     border: 1px solid #60a03f;
 }
 
-#quizAns label.wrong{
+#quizAns label.wrong {
     background: #ffe8e8;
-    border: 1px solid #b73131;
-    background-color: #b90a0a;
+    border: 1px solid #c78181;
 }
 
 .widget-wrap{
@@ -142,7 +135,6 @@ body{
     border-radius: 20px;
     background: rgba (255, 255, 255, 0.4);  
 
-    
 }
 
 #code-boxx a{

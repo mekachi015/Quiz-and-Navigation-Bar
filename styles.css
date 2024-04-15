@@ -52,6 +52,12 @@ body{
     padding-bottom: 15px;
 }
 
+.group-logo
+{
+    float: left;
+    height: 30px;
+    width:30px;
+}
 
 .side-bar a{
     text-decoration: none;
@@ -124,7 +130,7 @@ body{
     border: 1px solid #60a03f;
 }
 
-#quiz label.wrong{
+#quizAns label.wrong{
     background: #ffe8e8;
     border: 1px solid #b73131;
     background-color: #b90a0a;
